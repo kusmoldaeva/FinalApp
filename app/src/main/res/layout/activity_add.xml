@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
+        <EditText
+                android:id="@+id/textID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp">
+        <EditText
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"    >
+        <EditText
+                android:id="@+id/textMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile number"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="140dp"    >
+        <EditText
+                android:id="@+id/textHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Home number"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="180dp"    >
+        <EditText
+                android:id="@+id/textWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Work number"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
